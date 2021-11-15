@@ -1,0 +1,17 @@
+@media (min-width: 300px) and (max-width:1000px) {
+    .page-wrapper {
+        flex-direction: column;
+    }
+    .logo-wrapper {
+        order: 2;
+    }
+    .right-column-wrapper {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1001px) and (max-width:1400px) {
+    .logo-wrapper img {
+        width: auto;
+    }
+}
